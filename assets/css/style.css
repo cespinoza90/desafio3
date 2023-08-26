@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+.imagen img{
+    width: 100%;
+    height: 50%;
+}
+
+section.baja{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+section.baja .baja3{
+    width: 80%;
+}
+
+.baja{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.baja3{
+    padding: 20px;;
+    background-color: black;
+}
+
+.baja2{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    justify-content: center;
+}
+
+section.iconos{
+    display: flex;
+    padding: 70px 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.iconos .icono1, .iconos .icono2, .iconos .icono3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos i{
+    font-size: 35px;;
+}
+
+section.iconos p{
+    font-size: 24px;;
+}
+
+h2{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagen2{
+    height: auto;
+    max-width: 80%;
+    overflow: hidden;
+    width: 80%;
+    min-height: 270px;
+    padding: 20px;;
+}
+
+article{
+    background-color: #1E1A13;
+    padding: 20px;
+}
+
+.imagen3{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1E1A13;
+    padding: 20px;
+}
